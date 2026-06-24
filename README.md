@@ -93,5 +93,5 @@ Guarda anche [DeWeb](https://pypi.org/project/DeWeb) e [utiilityes](https://pypi
 
 | Versione | Stato | Note |
 |----------|-------|------|
-| 0.1.x | supportata | — |
+| 0.1.x | Nuova | — |
 

@@ -18,6 +18,9 @@ dependencies = [
     "markdown>=3.5"
 ]
 
+[project.scripts]
+zompi = "zompi.cli:main"
+
 [project.urls]
 Homepage = "https://utiteam-zompi.fandom.com/it/wiki/Zompi_Wiki"
 Source = "https://github.com/utiteam-python/zompi"

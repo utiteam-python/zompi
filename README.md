@@ -40,6 +40,8 @@ Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidu
 
 Se ti stai chiedendo cosa significa `zompi.contrib.DOC`, quella constante si riferisce a quel documento, se si usa un'altra variabile, userá un altro documento.
 
+Se non vuoi copiare questo file esempio, digita nel terminale `zompi new nomefile.py`, che creerá per te un file vuoto.
+
 ---
 
 ## Aggiungere un tema
@@ -58,6 +60,18 @@ use(Theme)
 ```
 
 Ricorda che di defalut Zompi usa il tema Sonzi (ovvero `zompi.theme.sonzi`)
+
+---
+
+## Convertire in HTML
+
+Per convertire in HTML, digita nel terminale:
+
+```bash
+zompi convert nomefile.py
+```
+
+Convertirá in HTML velocemente il file.
 
 ---
 

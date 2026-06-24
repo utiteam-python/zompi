@@ -52,6 +52,8 @@ e nella classe della pagina (preferibilmente in `__init__()`) inserite:
 use(Theme)
 ```
 
+Ricorda che di defalut Zompi usa il tema Sonzi (ovvero `zompi.theme.sonzi`)
+
 ---
 
 ## Altri pacchetti

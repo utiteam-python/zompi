@@ -30,4 +30,15 @@ def markdown(text: str) -> str:
     Converte Markdown in HTML.
     """
     return md.markdown(text)
-  
+
+class Style:
+    def __init__(self, css: str):
+        self.css = css
+
+    def __str__(self):
+        return self.css
+
+
+def style(css: str) -> Style:
+    return Style(css)
+    

@@ -1,6 +1,7 @@
 # zompi/page.py
 
 import zompi.contrib as c
+from zompi.themes import ACTIVE_THEME
 
 
 class BasePage:
@@ -31,5 +32,6 @@ class BasePage:
         """
         title = f"# {cls.PAGE_TITLE}\n\n"
         content = str(doc)
-        return title + content
+        stylesheet = str(ACTIVE_THEME.THEME_STYLESHEET)
+        return f"{stylesheet}\n\n# {cls.PAGE_TITLE}\n\n{content}"
       

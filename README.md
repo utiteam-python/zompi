@@ -1,5 +1,10 @@
 # Zompi
 
+[![PyPI Version](https://img.shields.io/pypi/v/zompi.svg)](https://pypi.org/project/zompi/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/zompi.svg)](https://pypi.org/project/zompi/)
+[![License](https://img.shields.io/pypi/l/zompi.svg)](https://github.com/utiteam-python/zompi/blob/main/LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-utiteam--python%2Fzompi-blue?logo=github)](https://github.com/utiteam-python/zompi)
+
 _Un generatore di documentazione Python-centrico con temi modulari_
 
 ---

@@ -17,6 +17,14 @@ Per installare Zompi, digita nel terminale:
 pip install zompi
 ```
 
+E controlla che sia installato:
+
+```bash
+zompi -v
+```
+
+Se dá output, allora hai installato correttamente Zompi, altrimenti prova `python -m zompi.cli` o reinstalla Zompi.
+
 ---
 
 ## Crea una pagina di documentazione

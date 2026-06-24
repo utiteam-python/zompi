@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zompi"
+version = "0.1.0"
+description = "Un generatore di documentazione Python-centrico con temi modulari"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+authors = [
+    { name = "DomeniGeco" }
+]
+
+dependencies = [
+    "markdown>=3.5"
+]
+
+[project.urls]
+Homepage = "https://github.com/utiteam-python/zompi"
+Source = "https://github.com/utiteam-python/zompi"
+Issues = "https://github.com/utiteam-python/zompi/issues"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["zompi*"]

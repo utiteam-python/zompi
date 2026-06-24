@@ -19,9 +19,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/utiteam-python/zompi"
+Homepage = "https://utiteam-zompi.fandom.com/it/wiki/Zompi_Wiki"
 Source = "https://github.com/utiteam-python/zompi"
 Issues = "https://github.com/utiteam-python/zompi/issues"
+Documentation = "https://utiteam-python.github.io/docs/zompi_docs/"
 
 [tool.setuptools]
 package-dir = {"" = "."}
